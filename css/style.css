@@ -1,4 +1,4 @@
-body, h1, ul {
+body, h1, ul, h2, p, figure {
 	margin: 0;
 	padding: 0;
 }
@@ -117,7 +117,80 @@ a {
 #tour {
 	width: 1263px;
 	height: 1200px;
-	background-color: red;
+	/*background-color: red;*/
 	text-align: center;
-	margin: 0 auto;
+	margin: 30px auto;
+}
+
+#tour .title h2 {
+	color: #666;
+	font-size: 45px;
+	letter-spacing: 2px;
+}
+
+#tour .title p {
+	color: #666;
+	margin: 10px 0;
+}
+
+#tour figure {
+	border: 1px solid #ddd;
+	display: inline-block;
+	padding: 4px;
+	border-radius: 4px;
+	margin: 15px 12px;
+	width: 380px;
+	text-align: left;
+	position: relative;
+}
+
+#tour figure img {
+	vertical-align: middle;
+}
+
+#tour figcaption {
+	color: #777;
+	font: 14px;
+	letter-spacing: 1px;
+	line-height: 1.5;
+	font-size: 14px;
+	margin: 5px 0;
+}
+
+#tour .figure-title {
+	color: #333;
+	font-weight: normal;
+}
+
+#tour .figure-sat {
+	float: right;
+	font-style: normal;
+	color: #999;
+	font-size: 13px;
+	position: relative;
+	top: 3px;
+	right: 5px;
+}
+
+#tour .figure-price {
+	color: #f60;
+	font-size: 14px;
+}
+
+#tour .figure-price strong {
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+
+#tour .type {
+	width: 90px;
+	height: 25px;
+	background-color: #59b200;
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+	line-height: 25px;
+	position: absolute;
+	top: 4px;
+	left: 4px;
 }
