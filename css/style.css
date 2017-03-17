@@ -1,0 +1,123 @@
+body, h1, ul {
+	margin: 0;
+	padding: 0;
+}
+
+.none {
+	display: none;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+/***************顶部导航栏*************/
+#headerView {
+	width: 100%;
+	min-width: 1263px;
+	height: 70px;
+	background-color: #333;
+}
+
+#headerView .header-center {
+	width: 1263px;
+	height: 70px;
+	margin: 0 auto;
+}
+
+#headerView .header-title {
+	background-image: url(../img/logo.png);
+	background-color: red;
+	width: 240px;
+	height: 70px;
+	text-indent: -9999px;
+	float: left;
+}
+
+#headerView .header-nav {
+	float: right;
+	line-height: 70px;
+	/*background-color: red;*/
+	width: 650px;
+}
+
+#headerView .header-nav li {
+	float: left;
+	width: 120px;
+	text-align: center;
+}
+
+#headerView .header-nav a {
+	color: #eee;
+	display: block;
+}
+
+#headerView .header-nav a:hover {
+	background-color: #000;
+}
+
+
+/***************搜索*************/
+#search {
+	height: 600px;
+	min-width: 1263px;
+	width: 100%;
+	background: url(../img/search.jpg) no-repeat center;
+	position: relative;
+}
+
+#search .search-background {
+	width: 600px;
+	height: 60px;
+	background-color: #000;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -27px 0 0 -300px;
+	opacity: 0.6;
+	border-radius: 10px;
+}
+
+#search .search-text {
+	width: 460px;
+	height: 52px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -24px 0 0 -290px;
+	border-radius: 10px;
+	font-size: 24px;
+	outline: none;
+	padding: 0 0 0 10px;
+	border: 1px solid #666;
+	background-color: #eee;
+}
+
+#search .search-btn {
+	width: 108px;
+	height: 52px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -23px 0 0 186px;
+	font-size: 24px;
+	color: #666;
+	border-radius: 10px;
+	border: 1px solid #666;
+	cursor: pointer;
+	outline: none;
+	background-color: #eee;
+}
+
+/***************旅游*************/
+#tour {
+	width: 1263px;
+	height: 1200px;
+	background-color: red;
+	text-align: center;
+	margin: 0 auto;
+}
